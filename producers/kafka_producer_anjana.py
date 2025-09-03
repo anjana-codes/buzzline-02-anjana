@@ -63,7 +63,7 @@ def main() -> None:
         {"question": "What is your favorite food? 🍕"},
         {"question": "What is your favorite dinosaur? 🦖"},
         {"question": "Who is your favorite superhero? 🦸"},
-        {"question": "What game do you like to play the most? 🎮"},
+        {"question": "What game do you like to play the most? ⚽"},
         {"question": "What snack do you like after school? 🍪"},
     ]
 
