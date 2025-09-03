@@ -77,3 +77,115 @@
 2025-09-01 10:28:07 | WARNING | Consumer interrupted by user.
 2025-09-01 10:28:07 | INFO | Kafka consumer for topic 'buzzline' closed.
 2025-09-01 10:28:07 | INFO | END consumer for topic 'buzzline' and group 'default_group'.
+2025-09-03 12:40:42 | INFO | Logging to file: logs/project_log.log
+2025-09-03 12:40:42 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-03 12:40:42 | INFO | START boys questions producer.
+2025-09-03 12:40:42 | INFO | Kafka topic: buzzline
+2025-09-03 12:40:42 | INFO | Kafka broker address: localhost:9092
+2025-09-03 12:40:42 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-03 12:40:42 | INFO | Kafka producer successfully created.
+2025-09-03 12:40:42 | INFO | Sent message: {'question': 'What is your favorite food? 🍕'}
+2025-09-03 12:40:42 | INFO | Processing message: {"question": "What is your favorite food? /ud83c/udf55"}
+2025-09-03 12:40:44 | INFO | Sent message: {'question': 'What is your favorite dinosaur? 🦖'}
+2025-09-03 12:40:44 | INFO | Processing message: {"question": "What is your favorite dinosaur? /ud83e/udd96"}
+2025-09-03 12:40:46 | INFO | Sent message: {'question': 'Who is your favorite superhero? 🦸'}
+2025-09-03 12:40:46 | INFO | Processing message: {"question": "Who is your favorite superhero? /ud83e/uddb8"}
+2025-09-03 12:40:48 | INFO | Sent message: {'question': 'What game do you like to play the most? ⚽'}
+2025-09-03 12:40:48 | INFO | Processing message: {"question": "What game do you like to play the most? /u26bd"}
+2025-09-03 12:40:50 | INFO | Sent message: {'question': 'What snack do you like after school? 🍪'}
+2025-09-03 12:40:50 | INFO | Processing message: {"question": "What snack do you like after school? /ud83c/udf6a"}
+2025-09-03 12:40:51 | INFO | Logging to file: logs/project_log.log
+2025-09-03 12:40:51 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-03 12:40:51 | INFO | START boys questions consumer.
+2025-09-03 12:40:51 | INFO | Kafka topic: buzzline
+2025-09-03 12:40:51 | INFO | Kafka broker address: localhost:9092
+2025-09-03 12:40:51 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-03 12:40:51 | INFO | Kafka consumer successfully created.
+2025-09-03 12:40:52 | INFO | Sent message: {'question': 'What is your favorite food? 🍕'}
+2025-09-03 12:40:52 | INFO | Processing message: {"question": "What is your favorite food? /ud83c/udf55"}
+2025-09-03 12:40:54 | INFO | Sent message: {'question': 'What is your favorite dinosaur? 🦖'}
+2025-09-03 12:40:54 | INFO | Processing message: {"question": "What is your favorite dinosaur? /ud83e/udd96"}
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | ERROR | Failed to decode message: Expecting value: line 1 column 1 (char 0)
+2025-09-03 12:40:54 | INFO | Received question: What is your favorite food? 🍕
+2025-09-03 12:40:54 | INFO | 🍕 This is a food/snack question!
+2025-09-03 12:40:54 | INFO | Received question: What is your favorite dinosaur? 🦖
+2025-09-03 12:40:54 | INFO | 🦕 This is a dinosaur question!
+2025-09-03 12:40:54 | INFO | Received question: Who is your favorite superhero? 🦸
+2025-09-03 12:40:54 | INFO | 🦸 This is a superhero question!
+2025-09-03 12:40:54 | INFO | Received question: What game do you like to play the most? 🎮
+2025-09-03 12:40:54 | INFO | ⚽ This is a game question!
+2025-09-03 12:40:54 | INFO | Received question: What snack do you like after school? 🍪
+2025-09-03 12:40:54 | INFO | 🍕 This is a food/snack question!
+2025-09-03 12:40:54 | INFO | Received question: What is your favorite food? 🍕
+2025-09-03 12:40:55 | INFO | 🍕 This is a food/snack question!
+2025-09-03 12:40:55 | INFO | Received question: What is your favorite food? 🍕
+2025-09-03 12:40:55 | INFO | 🍕 This is a food/snack question!
+2025-09-03 12:40:55 | INFO | Received question: What is your favorite dinosaur? 🦖
+2025-09-03 12:40:55 | INFO | 🦕 This is a dinosaur question!
+2025-09-03 12:40:55 | INFO | Received question: Who is your favorite superhero? 🦸
+2025-09-03 12:40:55 | INFO | 🦸 This is a superhero question!
+2025-09-03 12:40:55 | INFO | Received question: What game do you like to play the most? ⚽
+2025-09-03 12:40:55 | INFO | ⚽ This is a game question!
+2025-09-03 12:40:55 | INFO | Received question: What snack do you like after school? 🍪
+2025-09-03 12:40:55 | INFO | 🍕 This is a food/snack question!
+2025-09-03 12:40:55 | INFO | Received question: What is your favorite food? 🍕
+2025-09-03 12:40:55 | INFO | 🍕 This is a food/snack question!
+2025-09-03 12:40:55 | INFO | Received question: What is your favorite dinosaur? 🦖
+2025-09-03 12:40:55 | INFO | 🦕 This is a dinosaur question!
+2025-09-03 12:40:56 | INFO | Sent message: {'question': 'Who is your favorite superhero? 🦸'}
+2025-09-03 12:40:56 | INFO | Processing message: {"question": "Who is your favorite superhero? /ud83e/uddb8"}
+2025-09-03 12:40:56 | INFO | Received question: Who is your favorite superhero? 🦸
+2025-09-03 12:40:56 | INFO | 🦸 This is a superhero question!
+2025-09-03 12:40:58 | INFO | Sent message: {'question': 'What game do you like to play the most? ⚽'}
+2025-09-03 12:40:58 | INFO | Received question: What game do you like to play the most? ⚽
+2025-09-03 12:40:58 | INFO | Processing message: {"question": "What game do you like to play the most? /u26bd"}
+2025-09-03 12:40:58 | INFO | ⚽ This is a game question!
+2025-09-03 12:41:00 | WARNING | Producer interrupted by user.
+2025-09-03 12:41:00 | INFO | Kafka producer for topic 'buzzline' closed.
+2025-09-03 12:41:00 | INFO | END boys questions producer.
+2025-09-03 12:41:04 | WARNING | Consumer interrupted by user.
+2025-09-03 12:41:04 | INFO | END boys questions consumer.
