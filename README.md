@@ -1,20 +1,24 @@
-# buzzline-02-case
-
+# buzzline-02-anjana
 Streaming data is often too big for any one machine. Apache Kafka is a popular streaming platform that uses publish-subscribe patterns:
 
-- **Producers** publish streaming data to topics
-- **Consumers** subscribe to topics to process data in real-time
-
+Producers publish streaming data to topics
+Consumers subscribe to topics to process data in real-time
 We'll write Python producers and consumers to work with Kafka topics.
 
-Kafka needs space - it's big. 
+Kafka needs space - it's big.
 
 It also comes from the Linux world. We'll use WSL on Windows machines.
 
-## Copy This Example Project & Rename
+## Introduction 
 
-1. Copy/fork this project into your GitHub account and create your own version of this project to run and experiment with.
-2. Name it `buzzline-02-yourname` where yourname is something unique to you.
+This project set up the example project and see how streaming analytics works using the Kafka streaming platform and the provided producer and consumer scripts. I have a 5 year old son. So I updated the producer to send questions for 5-year-old boys, including topics like food, dinosaurs, superheroes, favorite games, and snacks. Each message streams every 3 seconds. Also I enhanced the consumer to detect keywords like “dinosaur 🦕”, “superhero 🦸”, “food/snack 🍕”, and “game ⚽” and log them with special icons for easier visibility in real-time analytics.
+
+### Name: Anjana Dhakal, 09/03/2025
+
+## Objectives:
+1. Understand Python Kafka producers.
+2. Modify producers and consumers for real-time data streaming.
+3. Perform basic real-time analytics using Kafka.
 
 ## Task 1. Install and Start Kafka (using WSL if Windows)
 
@@ -74,14 +78,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.kafka_producer_case
+py -m producers.kafka_producer_anjana
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m producers.kafka_producer_case
+python3 -m producers.kafka_producer_anjana
 ```
 
 ## Task 4. Start a Kafka Consumer
@@ -95,14 +99,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.kafka_consumer_case
+py -m consumers.kafka_consumer_anjana
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.kafka_consumer_case
+python3 -m consumers.kafka_consumer_anjana
 ```
 
 ## Later Work Sessions
